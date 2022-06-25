@@ -1,0 +1,116 @@
+* {
+    font-family: "Roboto";
+    font-weight: 300;
+}
+
+body {
+    padding: 0%;
+    margin: 0%;
+}
+
+.bg-img {
+    max-width: 100%;
+    min-width: 300px;
+    min-height: 100vh;
+    vertical-align: top;
+}
+
+.logo {
+    width: 100px;
+    height: 120px;
+} 
+
+.logo-div {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+    margin: auto; 
+    height: 130px;
+    top: 30%;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.logo-text {
+    font-size: 60px;
+    height: min-content;
+    color: white;
+    font-weight:300;
+}
+
+.container {
+    display: flex;
+    height: 100%;
+}
+
+.cards {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+}
+
+.images {
+    flex: 1.2;
+    position: relative;
+}
+
+.card {
+    flex: 1 0 0;
+    background-color: #b1d2cdd0;
+    padding: 0px 50px;
+}
+
+.form {
+    box-shadow: 5px 6px 6px #888888;
+    background-color: #b1d2cdb4;
+    padding-bottom: 30px;
+
+}
+
+p {
+    font-size: 25px;
+}
+
+.form-content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+input {
+    border: 1px solid rgb(183, 183, 183);
+    border-radius: 2px;
+    padding: 2px;
+}
+
+input:focus {
+    outline: 1px solid #1683d6;
+    border-style: none;
+    
+}
+
+label, input {
+    display:block;
+    font-size: 15px;
+}
+ 
+h2 {
+    font-size: 22px;
+}
+
+button {
+    padding: 8px 40px;
+    margin: 20px 0px;
+    border-radius: 5px;
+    background-color: #C9653C;
+    color: white;
+    font-size: medium;
+    font-weight: 500;
+    border: 1px solid gray;
+    box-shadow: 2px 2px 6px #888888;
+}
